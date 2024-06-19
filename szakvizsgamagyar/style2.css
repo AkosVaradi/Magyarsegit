@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+}  
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(hatter1.jpg);
+    background-size: cover;
+}
+
+title{
+    font-style:italic ;
+}
+
+.wrapper {
+    width: 420px;
+    background: none;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .5);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    margin: 30px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+
+
+.input-box input {
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 0px;
+    transition: border 0.3s linear;
+}
+
+.input-box input:hover{
+    border: 2px solid rgb(66, 143, 156);
+}
+
+.input-box input:focus-within {
+    border: 2px solid rgb(71, 137, 182);
+
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+/*boxban levo gomb*/
+.wrapper .btn {
+    background: rgb(222, 184, 135);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .8);
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+
+
+
+
+/*felso jobb  oldali gomb*/
+.wrapper2 .btn {
+    background: rgb(222, 184, 135);
+    border: none;
+    outline: none;
+    border-radius: 430px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .8);
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+
+
+/*felso gomb helyzete*/
+.btn3{
+   
+    text-decoration: none;
+    position: absolute;
+    font-size: 1.0em;
+    top: calc(25% - 50px);
+    right: 50px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+
+
+.wrapper .btn:hover {
+    box-shadow: 0 6px 5px rgba(0, 0, 0, .1);
+
+}
+
+.btn2{
+    background: rgb(68, 165, 38)!important;
+    text-decoration: none;
+}
+
+.icon{
+    position: absolute;
+    color: rgb(66, 143, 156);
+    font-size: 1.2em;
+    top: 108px;
+    left: 50px;
+ }
+
+
+.icon2{
+    position: absolute;
+    color: rgb(66, 143, 156);
+    font-size: 1.2em;
+    top: 188px;
+    left: 50px;
+ }
+
+ .icon3{
+    position: absolute;
+    color: rgb(66, 143, 156);
+    font-size: 1.2em;
+    top: 268px;
+    left: 50px;
+ }
+
+
+.szoveg{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    top: calc(10% - 5px);
+    right: 50px;
+}
+
+
+
+
+
+
+.box{
+    background: rgb(193, 209, 50);
+    border: none;
+    outline: none;
+    border-radius: 430px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .8);
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    transition: box-shadow 0.2s ease-in-out;
+
+}

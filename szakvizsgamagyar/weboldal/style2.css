@@ -1,0 +1,629 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px; 
+    
+}
+ body{
+  box-sizing: border-box;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ }
+
+ .parallax {
+  background-color: #B5CB99;
+}
+
+.alcim3{
+  background-color:#FCE09B;
+  font-weight: bold;
+}
+
+.fejezet{
+  background-color: #FCE09B;
+  font-size: 25px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FCE09B; 
+  border-radius: 8px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background: #68b886; 
+}
+
+.img{
+  float: left;
+  width: 5%;
+
+}
+
+#tartalom{
+  margin-top: 5px;
+}
+
+header {
+    background-color: #B2533E;
+    opacity: 100%;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000 !important;
+}
+
+header h1 {
+    margin: 15px;
+    margin-right: 630px;
+}
+
+
+
+
+
+
+
+/*itt van a gombok kodja, hosszu ide jonnek a @mediascreen dolgok is*/
+
+
+nav{
+    float: right;
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline;
+      margin-right:0px;
+      margin-top:0px;
+  }
+  
+  
+  /*felul zold gombok kerete es formaja*/
+  nav a {
+      color: #fff;
+      text-decoration: none;
+      display:inline-block;
+      background-color: #4ea06d;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 3px;
+  }
+  
+  nav a:hover{
+    background-color: #911111;
+  
+  }
+  
+  nav .icon{
+   display: none;
+   position:absolute;
+   left:0;
+   
+  }
+
+  
+  
+.bevezeto{
+  background-color: #4ea06d;
+  position: absolute;
+  left: 20px;
+  margin-top: -100px;
+
+}
+
+.mibol{
+  background-color: #4ea06d;
+  position: absolute;
+  left: 120px;
+  margin-top: -100px;
+
+}
+
+.t1{
+  background-color: #4ea06d;
+  position: absolute;
+  left: 240px;
+  margin-top: -100px;
+
+}
+
+.t2{
+  background-color: #4ea06d;
+  position: absolute;
+  left: 325px;
+  margin-top: -100px;
+
+}
+
+.t3{
+  background-color: #4ea06d;
+  position: absolute;
+  left: 415px;
+  margin-top: -100px;
+
+}
+
+.gyakorlat{
+  background-color: #4ea06d;
+  position: absolute;
+  left: 512px;
+  margin-top: -100px;
+
+}
+
+#myTopnav {
+  position: fixed;
+  right: 0;
+  top: 0;
+
+}
+#myTopnav a:hover {
+  
+  background-color: #4ea06d
+}
+
+
+
+
+/*ha telorol hasznalod legyen szep */
+
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: center;
+      display: block;
+      background-color:#B5CB99;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    html{
+      scroll-behavior: smooth;
+      scroll-padding-top: 150px; 
+     
+  }
+  
+    .topnav.responsive a {position: relative;}
+    .topnav.responsive a.icon {
+      position: relative;
+      right: 0;
+      top: 0;
+      background-color: transparent;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  
+    header {
+      padding: 5px;
+  }
+
+  nav {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+nav a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.column-header {
+    width: 100%;
+    padding: 0;
+}
+
+  #hero{
+    margin-top: 100px;
+  }
+
+
+  .column-header .img{
+    display: none;
+    size: 9px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  #hero p{
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+.register{
+    float: right;
+    padding: 20;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#hero { 
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #ffffff;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color:#5baefb92 ;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 5px rgb(110, 246, 242)
+}
+
+.cta-button:hover{
+  background-color:rgb(228, 214, 29);
+}
+
+#about {
+    background-color: #f5f5f5;
+    padding: 20px;
+    
+}
+
+#about p{
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*kiemelt eloadok*/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 ;
+}
+
+.pic{
+  width: 300px;
+  height: 300px;
+  border: 5px solid gray;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.collapsible {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+}
+
+.active, .collapsible:hover {
+  background-color: #b4b4b4;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.img-eloadok{
+    width: 20%;
+    height: 20%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .content {
+      padding: 0px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #f1f1f1;
+    }
+  
+  }
+  
+   /*program*/
+   #program{
+    width: 100%;
+    padding: 20px;
+   }
+  #prg-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 16px;
+    width: 25%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /*kapcsolat*/
+  #contact{
+    color: white;
+    width: 100%;
+    padding: 20px;
+  }
+  .cnt-table{
+    width: 100%;
+  }
+  
+  .cnt-td{
+    text-align: center;
+    width: 50%;
+  }
+  
+  .cnt-td a{
+    color: white;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #5D5D5D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: #000;
+  }
+  
+  .icon-bar {
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  
+  .icon-bar img{
+    filter: invert(100%);
+  }
+  @media screen and (max-width: 600px) {
+    .cnt-td {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /*footer*/
+  footer {
+    background-color: #4c534c;
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin: 0px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /*sponsors*/
+  .img-szerv{
+    width: 50%;
+    filter:none;
+  }
+  
+  .column-szerv {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .row-szerv::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .img-sponsor{
+    width: 50%;
+  }
+  
+  .column-sponsor {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  .row-sponsor::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
